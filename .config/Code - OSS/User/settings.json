@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.enableTelemetry": false,
+    "julia.execution.resultType": "inline",
+    "editor.minimap.enabled": false
+}
