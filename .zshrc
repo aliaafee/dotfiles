@@ -21,7 +21,7 @@ bindkey -v
 
 # Vim mode display
 function zle-line-init zle-keymap-select {
-    RPS1="${${KEYMAP/vicmd/[N]}/(main|viins)/[I]}"
+    RPS1="${${KEYMAP/vicmd/n}/(main|viins)/}"
     RPS2=$RPS1
     zle reset-prompt
 }
@@ -38,7 +38,7 @@ compinit
 unsetopt share_history
 
 # Aliases
-alias gvim="gvimhi"
+#alias gvim="gvimhi"
 alias venew="python -m venv venv"
 alias cdp="cd ~/Projects"
 alias vea="source ./venv/bin/activate"
