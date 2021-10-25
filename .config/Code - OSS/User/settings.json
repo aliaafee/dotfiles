@@ -5,5 +5,8 @@
     "julia.enableTelemetry": false,
     "julia.execution.resultType": "inline",
     "editor.minimap.enabled": false,
-    "editor.fontSize": 13
+    "editor.fontSize": 13,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    }
 }
