@@ -37,6 +37,9 @@ compinit
 # Turn of shared history
 unsetopt share_history
 
+# Fancy move
+autoload -U zmv
+
 # Aliases
 #alias gvim="gvimhi"
 alias venew="python -m venv venv"
