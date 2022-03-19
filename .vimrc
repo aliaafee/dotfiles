@@ -11,6 +11,9 @@ filetype indent on
 filetype plugin on
 set nocompatible
 
+" theme
+colorscheme onehalfdark
+
 " tabs and indenting
 set smarttab
 set expandtab
